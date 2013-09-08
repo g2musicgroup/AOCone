@@ -21,7 +21,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    
+    /* Step 2 */
+    NSLog(@"Step 2");
+    float foodIsDelicious = 3.14159265359;
+    NSLog(@"%d food is disguisting, but %.2f is delicious!", (int)foodIsDelicious,(float)foodIsDelicious);
     
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
