@@ -26,6 +26,20 @@
     float foodIsDelicious = 3.14159265359;
     NSLog(@"%d food is disguisting, but %.2f is delicious!", (int)foodIsDelicious,(float)foodIsDelicious);
     
+    /* Step 3 */
+    NSLog(@"Step 3");
+    int spoons = 2;
+    bool change = NO;
+    
+    if ((spoons > 0)&&(editable == YES))
+    {
+        NSLog(@"Please say your prayers before eating.");
+    }
+    else if ((spoons == foodIsDelicious) || (editable == NO))
+    {
+        NSLog(@"we have no more spoons until the diswasher stops running");
+    }
+    
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
     self.viewController = [[[ViewController alloc] initWithNibName:@"ViewController" bundle:nil] autorelease];
