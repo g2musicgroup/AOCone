@@ -21,12 +21,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    /* Step 2 */
+    // Step 2
     NSLog(@"Step 2");
     float foodIsDelicious = 3.14159265359;
     NSLog(@"%d food is disguisting, but %.2f is delicious!", (int)foodIsDelicious,(float)foodIsDelicious);
     
-    /* Step 3 */
+    // Step 3
     NSLog(@"Step 3");
     int spoons = 2;
     bool change = NO;
@@ -39,6 +39,25 @@
     {
         NSLog(@"we have no more spoons until the diswasher stops running");
     }
+    
+    // Step 4
+    NSLog(@"Step 4");
+    int livesLeft = 4;
+    if (livesLeft == 4)
+    {
+        NSLog(@"In the Candy Crush game I have %d! lives left", livesLeft);
+    }
+    else if (livesLeft > 42)
+    {
+        NSLog(@"I need to practice this game more, I had %d lives now I'm dead", livesLeft);
+    }
+    else
+    {
+        int off = (livesLeft-42);
+        NSLog(@"I died %d times too many", off);
+    };
+    
+    
     
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
