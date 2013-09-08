@@ -64,7 +64,7 @@
         NSLog(@"%d loops complete", x);
     };
     
-    /* step 6 */
+    // step 6
     NSLog(@"Step 6");
     for (int y=90;y>20;y--)
     {
@@ -76,7 +76,22 @@
         };
     };
     
+    // step 7
+    NSLog(@"Step 7");
+    int mph = 20;
+    bool tired = TRUE;
+    do {
+        NSLog(@"Are you ready for a water break yet?");
+        while ( mph > 10 )
+        {
+            mph--;
+            NSLog(@"Taneen: Yes");
+        }
+        NSLog(@"Nope!");
+        tired = FALSE;
+    } while (mph > 10);
     
+    NSLog(@"Congratulations!");
 
     
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
