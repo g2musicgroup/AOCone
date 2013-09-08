@@ -64,6 +64,20 @@
         NSLog(@"%d loops complete", x);
     };
     
+    /* step 6 */
+    NSLog(@"Step 6");
+    for (int y=90;y>20;y--)
+    {
+        NSLog(@"%d is downloaded", y);
+        while (y<20) {
+            y = y-4;
+            NSLog(@"%d is uploaded", y);
+            if (y <= 5) { break; };
+        };
+    };
+    
+    
+
     
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
