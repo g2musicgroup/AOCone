@@ -31,11 +31,11 @@
     int spoons = 2;
     bool change = NO;
     
-    if ((spoons > 0)&&(editable == YES))
+    if ((spoons > 0)&&(change == YES))
     {
         NSLog(@"Please say your prayers before eating.");
     }
-    else if ((spoons == foodIsDelicious) || (editable == NO))
+    else if ((spoons == foodIsDelicious) || (change == NO))
     {
         NSLog(@"we have no more spoons until the diswasher stops running");
     }
