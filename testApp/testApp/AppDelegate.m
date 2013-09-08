@@ -57,6 +57,12 @@
         NSLog(@"I died %d times too many", off);
     };
     
+    // step 5
+    NSLog(@"Step 5");
+    for (int x=1;x < 5; x++)
+    {
+        NSLog(@"%d loops complete", x);
+    };
     
     
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
