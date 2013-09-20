@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2283FF05-C1C8-4097-81B4-F786C2C7DC55</string>
+	<key>IDESourceControlProjectName</key>
+	<string>testApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>634BB0D7-8F59-4CF2-8400-022169214C5C</key>
+		<string>ssh://github.com/g2musicgroup/AOCone.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>testApp/testApp.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>634BB0D7-8F59-4CF2-8400-022169214C5C</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/g2musicgroup/AOCone.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>634BB0D7-8F59-4CF2-8400-022169214C5C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>634BB0D7-8F59-4CF2-8400-022169214C5C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>AOCone</string>
+		</dict>
+	</array>
+</dict>
+</plist>
