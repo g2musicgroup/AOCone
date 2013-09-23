@@ -18,6 +18,11 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    // Call the Append function with two NSStrings. Capture the result and display a UIAlertView with the appended string using displayAlertWithString.
+    
+    // Capture and append strings from function append
+    NSString *appendStringAlertMessage = [self Append:@"G2 is the best " addString:@"developer ever!"];
 }
 
 - (void)didReceiveMemoryWarning
