@@ -32,6 +32,11 @@
         // show alert view
         [appendStringAlertView show];
     }
+    
+    // Call the Add function passing in two integer values. Capture the return of this function into a variable.
+    NSInteger addedNumbers = [self Add:30 addTo:12];
+    
+    
 }
 
 - (void)didReceiveMemoryWarning
