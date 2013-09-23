@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0500"
+   LastUpgradeVersion = "0460"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "395CB8C417EBF7F400B48782"
+               BlueprintIdentifier = "397D6CFB17EFE04A0086E833"
                BuildableName = "testApp.app"
                BlueprintName = "testApp"
                ReferencedContainer = "container:testApp.xcodeproj">
@@ -28,21 +28,11 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "395CB8E517EBF7F400B48782"
-               BuildableName = "testAppTests.xctest"
-               BlueprintName = "testAppTests"
-               ReferencedContainer = "container:testApp.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "395CB8C417EBF7F400B48782"
+            BlueprintIdentifier = "397D6CFB17EFE04A0086E833"
             BuildableName = "testApp.app"
             BlueprintName = "testApp"
             ReferencedContainer = "container:testApp.xcodeproj">
@@ -61,7 +51,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "395CB8C417EBF7F400B48782"
+            BlueprintIdentifier = "397D6CFB17EFE04A0086E833"
             BuildableName = "testApp.app"
             BlueprintName = "testApp"
             ReferencedContainer = "container:testApp.xcodeproj">
@@ -79,7 +69,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "395CB8C417EBF7F400B48782"
+            BlueprintIdentifier = "397D6CFB17EFE04A0086E833"
             BuildableName = "testApp.app"
             BlueprintName = "testApp"
             ReferencedContainer = "container:testApp.xcodeproj">
