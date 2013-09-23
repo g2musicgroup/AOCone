@@ -23,6 +23,15 @@
     
     // Capture and append strings from function append
     NSString *appendStringAlertMessage = [self Append:@"G2 is the best " addString:@"developer ever!"];
+    
+    // create alert view with appended string
+    UIAlertView *appendStringAlertView = [[UIAlertView alloc] initWithTitle:@"HEY!!!" message:appendStringAlertMessage delegate:nil cancelButtonTitle:@"The World Agrees" otherButtonTitles:nil];
+    // check if alert view was created successfully
+    if (appendStringAlertView != nil)
+    {
+        // show alert view
+        [appendStringAlertView show];
+    }
 }
 
 - (void)didReceiveMemoryWarning
